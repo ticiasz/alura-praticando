@@ -20,7 +20,7 @@ body{
 
 .principal{
     background-image: url("../assets/Background.png");
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
     text-align: center;
@@ -64,4 +64,23 @@ body{
 
 .container__aviso{
     font-size: 0.75rem;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 8rem;
+}
+
+.secundario__imagem{
+    width: 80%;
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 0.35rem;
+}
+
+.descricao__texto{
+    color: var(--cinza-secundario);
 }

@@ -1,2 +1,2 @@
 # alura-praticando
- The project in the course Practice HTML and CSS, by Alura.
+ O projeto apresentado no curso "Praticando HTML e CSS" da Alura.

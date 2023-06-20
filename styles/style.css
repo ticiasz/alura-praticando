@@ -49,7 +49,6 @@ body{
     display: block;
     background-color: var(--azul-botão);
     border-radius: 8px;
-    /* width: 30%; */
     padding: 16px;
     color: var(--branco-primario);
     font-size: 1rem;
@@ -75,6 +74,10 @@ body{
     width: 80%;
 }
 
+.container__descricao{
+    padding: 2.5rem;
+}
+
 .descricao__titulo{
     font-weight: 700;
     font-size: 3rem;
@@ -83,4 +86,11 @@ body{
 
 .descricao__texto{
     color: var(--cinza-secundario);
+}
+
+.secundario__botao{
+    display: inline-block;
+    /* width: 20%;
+    text-align: center; */
+    margin-top: 1.5rem;
 }

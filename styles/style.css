@@ -108,9 +108,37 @@ body{
     display: flex;
     justify-content: center;
     list-style-type: none;
-    margin: 5rem 0;
+    margin: 4rem 0 8rem 0;
 }
 
 .lista__item{
     font-size: 2rem;
+}
+
+.rodape{
+    text-align: center;
+    margin: 5rem 10rem;
+}
+
+.rodape__logo{
+    margin-bottom: 2.5rem;
+}
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.lista__link a{
+    font-size: 1rem;
+    color: var(--branco-primario);
+    text-decoration: none;
+}
+
+.rodape__texto{
+    font-size: 0.9rem;
+    color: var(--cinza-secundario);
+    margin: 2rem;
 }

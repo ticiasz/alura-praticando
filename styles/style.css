@@ -94,3 +94,23 @@ body{
     text-align: center; */
     margin-top: 1.5rem;
 }
+
+.dispositivos{
+    text-align: center;
+    font-weight: 700;
+}
+
+.dispositivos__titulo{
+    font-size: 3rem;
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5rem 0;
+}
+
+.lista__item{
+    font-size: 2rem;
+}
